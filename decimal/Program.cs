@@ -2,7 +2,7 @@
 {
     static void Main()
     {
-        decimal amount=1000.0M;
+        decimal amount=1000.0M;//Дает более точный подчет числе с плавающей запятой.Добавлять букву M обязательно.
         const decimal rate_of_return= 0.07M;
         int years = 10;
 
