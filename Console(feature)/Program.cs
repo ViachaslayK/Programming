@@ -10,5 +10,6 @@ internal class Console_F
 
         for (int i = 1; i < 10; i++)
             Console.WriteLine("{0}\t{1}\t{2}\t",i,i*i,i*i*i);
+        Console.WriteLine("10/3 = {0:#.##}", 10.0 / 3.0);
     }
 }
