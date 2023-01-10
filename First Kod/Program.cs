@@ -3,11 +3,17 @@ class Program
 {
     static void Main()
     {
-       Console.WriteLine("Hello, World!");
-       variable();
-       Circle();
+        int age = 32;
+        string name = "Slava";
+        Console.WriteLine("Hello, World!");
+        Console.WriteLine($"Hello, my name is {name} my age is {age}");//Это называется интерпаляция
+
+
+        Variable();
+        Circle();
+        Converting();
     }
-    static void variable()
+    static void Variable()
     {
         int x;
         int y;
@@ -16,7 +22,7 @@ class Program
         y = x / 2;
         Console.Write("y = ");
         Console.WriteLine(y);
-        
+
     }
 
     static void Circle()
@@ -28,5 +34,13 @@ class Program
 
         Console.WriteLine("Площать круга = " + area);
 
+    }
+
+    static void Converting()
+    {
+        int age1 = 10;
+        string name = "20";
+        age1 = Convert.ToInt32(name);
+        Console.WriteLine(age1);
     }
 }
