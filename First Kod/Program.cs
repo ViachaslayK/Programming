@@ -3,7 +3,11 @@ class Program
 {
     static void Main()
     {
+        short age= 32;
+        string name = "Slava";
        Console.WriteLine("Hello, World!");
+       Console.WriteLine($"Hello, my name is {name} my age is {age}");//Это называется интерпаляция
+
        variable();
        Circle();
     }
