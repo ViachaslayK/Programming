@@ -3,15 +3,9 @@ class Program
 {
     static void Main()
     {
-        int age = 32;
-        string name = "Slava";
-        Console.WriteLine("Hello, World!");
-        Console.WriteLine($"Hello, my name is {name} my age is {age}");//Это называется интерпаляция
-
-
-        Variable();
-        Circle();
-        Converting();
+       Console.WriteLine("Hello, World!");
+       variable();
+       Circle();
     }
     static void Variable()
     {
