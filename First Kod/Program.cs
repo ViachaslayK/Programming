@@ -4,7 +4,7 @@ class Program
     static void Main()
     {
        Console.WriteLine("Hello, World!");
-       variable();
+       Variable();
        Circle();
     }
     static void Variable()
