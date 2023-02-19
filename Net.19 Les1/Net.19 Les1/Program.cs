@@ -7,3 +7,9 @@ for (int i=0;i<W;i++)
     Console.WriteLine(Weeks[i]);
 }
 
+var user = new User();
+
+public class User
+{
+
+}
