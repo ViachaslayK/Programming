@@ -12,6 +12,7 @@ internal class Program
         {
             Console.Write(Swap_Letters_1(Words[i]) + " ");
         }
+        Console.Read();
     }
 
     public static string Enter_Information()
